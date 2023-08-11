@@ -1,12 +1,9 @@
 import React from 'react'
-import './style.css'
-
+import { Header, Content, Footer } from './func-components'
 function App() {
-  return (
-  <>
-  <h2>DeveloperThai.com</h2>
-  <div className='title'>React & React Native</div>
-  </>)
+//แบบที่ 1 ก ำหนดฟังก์ชันทั้งหมดที่จะแสดงในแบบอำร์เรย์
+return (
+[<Header />, <Content />, <Footer />]
+)
 }
-
-export default App;
+export default App
