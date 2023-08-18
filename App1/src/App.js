@@ -1,6 +1,7 @@
 import React from 'react'
-import Banner from './banner'
+import Button from './class-components'
 
-export default function App() {
-    return <Banner/> 
+function App() {
+    return <Button/> 
 }
+export default App
