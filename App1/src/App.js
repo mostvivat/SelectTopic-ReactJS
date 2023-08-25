@@ -1,6 +1,6 @@
 import React from 'react'
-import {Table} from './event-data'
+import RefsFunc from './refs-func'
 
 export default function App() {
-    return <Table/> 
+    return <RefsFunc/>
 }
